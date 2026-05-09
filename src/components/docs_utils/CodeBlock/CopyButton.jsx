@@ -1,5 +1,26 @@
 import React, { useState } from 'react';
-import { CopyIcon, CopiedIcon } from './Icons';
+
+function CopyIcon() {
+    return (
+        <img
+            src="/icons/copy.svg"
+            alt=""
+            aria-hidden="true"
+            className="h-4 w-4 opacity-80 dark:invert"
+        />
+    );
+}
+
+function CopiedIcon() {
+    return (
+        <img
+            src="/icons/复制成功.svg"
+            alt=""
+            aria-hidden="true"
+            className="h-4 w-4 opacity-90"
+        />
+    );
+}
 
 const CopyButton = ({ textToCopy }) => {
     const [isCopied, setIsCopied] = useState(false);
@@ -28,9 +49,7 @@ const CopyButton = ({ textToCopy }) => {
             title={isCopied ? "Copied!" : "Copy code"}
         >
             {isCopied ? (
-                <span className="text-green-500 dark:text-green-400">
-                    <CopiedIcon />
-                </span>
+                <CopiedIcon />
             ) : (
                 <CopyIcon />
             )}
