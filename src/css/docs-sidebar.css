@@ -352,8 +352,16 @@ main[class*="docMainContainer"] {
     gap: 32px;
 }
 
+.docs-wrapper {
+    --docs-sidebar-logo-row-height: 42px;
+    --docs-content-top-align-offset: calc(-1 * var(--docs-sidebar-logo-row-height));
+}
+
 .docs-wrapper aside.theme-doc-sidebar-container { flex: 0 0 220px; }
-.docs-wrapper [class*="docItemCol"] { max-width: 760px; }
+.docs-wrapper [class*="docItemCol"] {
+    max-width: 760px;
+    margin-top: var(--docs-content-top-align-offset);
+}
 .docs-wrapper .col.col--3 { flex: 0 0 200px; }
 
 .docs-wrapper div[class*="sidebarViewport"] {
@@ -373,6 +381,12 @@ main[class*="docMainContainer"] {
 .docs-wrapper div[class*="sidebarViewport"]::-webkit-scrollbar-track,
 .docs-wrapper div[class*="sidebarViewport"]::-webkit-scrollbar-thumb {
     background: transparent;
+}
+
+@media (max-width: 996px) {
+    .docs-wrapper [class*="docItemCol"] {
+        margin-top: 0;
+    }
 }
 
 /* Docs right sidebar watermark (separate block below the TOC) */
