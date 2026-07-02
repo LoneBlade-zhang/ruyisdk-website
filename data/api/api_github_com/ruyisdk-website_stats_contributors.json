@@ -21,19 +21,19 @@
     {
       "total": 2,
       "author": {
-        "login": "shenghailing00-stack",
-        "id": 256837162,
-        "avatar_url": "https://avatars.githubusercontent.com/u/256837162?v=4",
-        "html_url": "https://github.com/shenghailing00-stack"
-      }
-    },
-    {
-      "total": 2,
-      "author": {
         "login": "Glavo",
         "id": 20694662,
         "avatar_url": "https://avatars.githubusercontent.com/u/20694662?v=4",
         "html_url": "https://github.com/Glavo"
+      }
+    },
+    {
+      "total": 4,
+      "author": {
+        "login": "shenghailing00-stack",
+        "id": 256837162,
+        "avatar_url": "https://avatars.githubusercontent.com/u/256837162?v=4",
+        "html_url": "https://github.com/shenghailing00-stack"
       }
     },
     {
@@ -100,7 +100,7 @@
       }
     },
     {
-      "total": 50,
+      "total": 51,
       "author": {
         "login": "LoneBlade-zhang",
         "id": 207433538,
@@ -109,7 +109,7 @@
       }
     },
     {
-      "total": 61,
+      "total": 62,
       "author": {
         "login": "a1gorhythm7",
         "id": 198067605,
@@ -127,7 +127,7 @@
       }
     },
     {
-      "total": 320,
+      "total": 364,
       "author": {
         "login": "weilinfox",
         "id": 54651938,
@@ -137,7 +137,7 @@
     }
   ],
   "ruyisdk_org_data": {
-    "generatedAt": "2026-06-04T20:58:14.086Z",
+    "generatedAt": "2026-06-25T20:55:32.400Z",
     "source": "https://api.github.com/repos/ruyisdk/ruyisdk-website/stats/contributors"
   }
 }
