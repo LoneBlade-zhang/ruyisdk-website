@@ -3,10 +3,10 @@
     {
       "total": 1,
       "author": {
-        "login": "SmulllLu",
-        "id": 149551813,
-        "avatar_url": "https://avatars.githubusercontent.com/u/149551813?v=4",
-        "html_url": "https://github.com/SmulllLu"
+        "login": "trg-rgb",
+        "id": 147071803,
+        "avatar_url": "https://avatars.githubusercontent.com/u/147071803?v=4",
+        "html_url": "https://github.com/trg-rgb"
       }
     },
     {
@@ -46,6 +46,15 @@
       }
     },
     {
+      "total": 12,
+      "author": {
+        "login": "SmulllLu",
+        "id": 149551813,
+        "avatar_url": "https://avatars.githubusercontent.com/u/149551813?v=4",
+        "html_url": "https://github.com/SmulllLu"
+      }
+    },
+    {
       "total": 16,
       "author": {
         "login": "wychlw",
@@ -55,7 +64,7 @@
       }
     },
     {
-      "total": 81,
+      "total": 87,
       "author": {
         "login": "weilinfox",
         "id": 54651938,
@@ -64,7 +73,7 @@
       }
     },
     {
-      "total": 341,
+      "total": 350,
       "author": {
         "login": "xen0n",
         "id": 1175567,
@@ -74,7 +83,7 @@
     }
   ],
   "ruyisdk_org_data": {
-    "generatedAt": "2026-06-25T20:51:14.503Z",
+    "generatedAt": "2026-09-03T21:33:08.180Z",
     "source": "https://api.github.com/repos/ruyisdk/packages-index/stats/contributors"
   }
 }
