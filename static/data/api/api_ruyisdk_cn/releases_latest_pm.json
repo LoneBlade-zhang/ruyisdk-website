@@ -1,46 +1,50 @@
 {
   "channels": {
     "stable": {
-      "version": "0.50.0",
+      "version": "0.52.0",
       "channel": "stable",
-      "release_date": "2026-06-23T13:06:10Z",
+      "release_date": "2026-09-02T14:07:04Z",
       "download_urls": {
+        "linux/x86_64": [
+          "https://github.com/ruyisdk/ruyi/releases/download/0.52.0/ruyi-0.52.0.amd64",
+          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.52.0/ruyi-0.52.0.amd64"
+        ],
         "linux/aarch64": [
-          "https://github.com/ruyisdk/ruyi/releases/download/0.50.0/ruyi-0.50.0.arm64",
-          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.50.0/ruyi-0.50.0.arm64"
+          "https://github.com/ruyisdk/ruyi/releases/download/0.52.0/ruyi-0.52.0.arm64",
+          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.52.0/ruyi-0.52.0.arm64"
         ],
         "linux/riscv64": [
-          "https://github.com/ruyisdk/ruyi/releases/download/0.50.0/ruyi-0.50.0.riscv64",
-          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.50.0/ruyi-0.50.0.riscv64"
-        ],
-        "linux/x86_64": [
-          "https://github.com/ruyisdk/ruyi/releases/download/0.50.0/ruyi-0.50.0.amd64",
-          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.50.0/ruyi-0.50.0.amd64"
+          "https://github.com/ruyisdk/ruyi/releases/download/0.52.0/ruyi-0.52.0.riscv64",
+          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.52.0/ruyi-0.52.0.riscv64"
         ]
       }
     },
     "testing": {
-      "version": "0.51.0-alpha.20260616",
+      "version": "0.52.0-beta.20260824",
       "channel": "testing",
-      "release_date": "2026-06-16T16:55:34Z",
+      "release_date": "2026-08-24T15:34:52Z",
       "download_urls": {
+        "linux/x86_64": [
+          "https://github.com/ruyisdk/ruyi/releases/download/0.52.0-beta.20260824/ruyi-0.52.0-beta.20260824.amd64",
+          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.52.0-beta.20260824/ruyi-0.52.0-beta.20260824.amd64"
+        ],
         "linux/aarch64": [
-          "https://github.com/ruyisdk/ruyi/releases/download/0.51.0-alpha.20260616/ruyi-0.51.0-alpha.20260616.arm64",
-          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.51.0-alpha.20260616/ruyi-0.51.0-alpha.20260616.arm64"
+          "https://github.com/ruyisdk/ruyi/releases/download/0.52.0-beta.20260824/ruyi-0.52.0-beta.20260824.arm64",
+          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.52.0-beta.20260824/ruyi-0.52.0-beta.20260824.arm64"
+        ],
+        "darwin/aarch64": [
+          "https://github.com/ruyisdk/ruyi/releases/download/0.52.0-beta.20260824/ruyi-0.52.0-beta.20260824.macos-arm64",
+          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.52.0-beta.20260824/ruyi-0.52.0-beta.20260824.macos-arm64"
         ],
         "linux/riscv64": [
-          "https://github.com/ruyisdk/ruyi/releases/download/0.51.0-alpha.20260616/ruyi-0.51.0-alpha.20260616.riscv64",
-          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.51.0-alpha.20260616/ruyi-0.51.0-alpha.20260616.riscv64"
-        ],
-        "linux/x86_64": [
-          "https://github.com/ruyisdk/ruyi/releases/download/0.51.0-alpha.20260616/ruyi-0.51.0-alpha.20260616.amd64",
-          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.51.0-alpha.20260616/ruyi-0.51.0-alpha.20260616.amd64"
+          "https://github.com/ruyisdk/ruyi/releases/download/0.52.0-beta.20260824/ruyi-0.52.0-beta.20260824.riscv64",
+          "https://mirror.iscas.ac.cn/ruyisdk/ruyi/tags/0.52.0-beta.20260824/ruyi-0.52.0-beta.20260824.riscv64"
         ]
       }
     }
   },
   "ruyisdk_org_data": {
-    "generatedAt": "2026-06-25T21:12:22.759Z",
+    "generatedAt": "2026-09-03T21:54:12.638Z",
     "source": "https://api.ruyisdk.cn/releases/latest-pm"
   }
 }
