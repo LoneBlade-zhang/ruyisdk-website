@@ -1,15 +1,6 @@
 {
   "data": [
     {
-      "total": 1,
-      "author": {
-        "login": "pzhlkj6612",
-        "id": 29089388,
-        "avatar_url": "https://avatars.githubusercontent.com/u/29089388?v=4",
-        "html_url": "https://github.com/pzhlkj6612"
-      }
-    },
-    {
       "total": 2,
       "author": {
         "login": "lazyparser",
@@ -30,6 +21,15 @@
     {
       "total": 5,
       "author": {
+        "login": "pzhlkj6612",
+        "id": 29089388,
+        "avatar_url": "https://avatars.githubusercontent.com/u/29089388?v=4",
+        "html_url": "https://github.com/pzhlkj6612"
+      }
+    },
+    {
+      "total": 5,
+      "author": {
         "login": "Master-Hash",
         "id": 56669192,
         "avatar_url": "https://avatars.githubusercontent.com/u/56669192?v=4",
@@ -39,19 +39,19 @@
     {
       "total": 7,
       "author": {
-        "login": "MalachiteN",
-        "id": 53076703,
-        "avatar_url": "https://avatars.githubusercontent.com/u/53076703?v=4",
-        "html_url": "https://github.com/MalachiteN"
-      }
-    },
-    {
-      "total": 7,
-      "author": {
         "login": "ddsfda99",
         "id": 168000702,
         "avatar_url": "https://avatars.githubusercontent.com/u/168000702?v=4",
         "html_url": "https://github.com/ddsfda99"
+      }
+    },
+    {
+      "total": 8,
+      "author": {
+        "login": "MalachiteN",
+        "id": 53076703,
+        "avatar_url": "https://avatars.githubusercontent.com/u/53076703?v=4",
+        "html_url": "https://github.com/MalachiteN"
       }
     },
     {
@@ -73,7 +73,7 @@
       }
     },
     {
-      "total": 17,
+      "total": 22,
       "author": {
         "login": "Platohykj",
         "id": 147904598,
@@ -82,7 +82,7 @@
       }
     },
     {
-      "total": 21,
+      "total": 69,
       "author": {
         "login": "sisungo",
         "id": 95552651,
@@ -91,7 +91,7 @@
       }
     },
     {
-      "total": 63,
+      "total": 76,
       "author": {
         "login": "U2FsdGVkX1",
         "id": 11484206,
@@ -101,7 +101,7 @@
     }
   ],
   "ruyisdk_org_data": {
-    "generatedAt": "2026-06-25T20:55:32.838Z",
+    "generatedAt": "2026-10-29T23:04:20.397Z",
     "source": "https://api.github.com/repos/ruyisdk/ruyisdk-vscode-extension/stats/contributors"
   }
 }
